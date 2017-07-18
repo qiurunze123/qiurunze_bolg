@@ -4,10 +4,10 @@
 
 # Site
 title: GeekQ
-subtitle: 年轻无为 . 砍柴为生
+subtitle: 城南五尺.年轻无为.砍柴为生
 description: 黑龙江八一农垦大学
 author: GeekQ
-email: QiuRunZe_key@qq.com
+email: QiuRunZe_key@163.com
 timezone:
 
 # URL
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: spfk
 jsonContent:
     meta: false
     pages: false
