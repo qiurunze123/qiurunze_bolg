@@ -21,7 +21,7 @@ reward: true
      除此之后还可以有 fast-track 等分支。
 
 
-### 主分支
+### 1. 主分支
     主分支包括 master 分支和 develop 分支。master 分支用来发布，
     HEAD 就是当前线上的运行代码。develop 分支就是我们的日常开发。
     使用这两个分支就具有了最简单的开发模式：develop 分支用来开发功能，
@@ -33,7 +33,7 @@ reward: true
 develop 分支只有发布完了才能进行下一个版本开发，开发会比较缓慢。
 线上代码出现 bug 如何进行 bug 修复。
 带着这两个问题往下看。
-###  辅助分支
+### 2. 辅助分支
    * feature 分支
    * release 分支
    * hotfix 分支
@@ -78,21 +78,6 @@ ff 是fast-forward 的意思，--no-ff就是禁用fast-forward。
 我们知道哪些 commit 是某些 feature 相关的。
 虽然 git merge 的时候会自动判断是否使用fast-farward模式，
 但是有时候为了更明确，我们还是要加参数--no-ff或者--ff。
-### git Release 分支
-    
-
-git 和 svn 的一个显著区别就是提供更丰富的分支特性，我们今天就要说一下如何管理这些分支。关于 git 的分支管理，Vincent Driessen 有一篇文章说的非常好，地址在参考[1]。我这里主要就是参考他的文章。
-
-2. 总览
-git 的分支整体预览图如下。
-从上图可以看到主要包含下面几个分支：
-
-master: 主分支，主要用来版本发布。
-develop：日常开发分支，该分支正常保存了开发的最新代码。
-feature：具体的功能开发分支，只与 develop 分支交互。
-release：release 分支可以认为是 master 分支的未测试版。比如说某一期的功能全部开发完成，那么就将 develop 分支合并到 release 分支，测试没有问题并且到了发布日期就合并到 master 分支，进行发布。
-hotfix：线上 bug 修复分支。
-除此之后还可以有 fast-track 等分支。
 
 3. 主分支
 
@@ -120,7 +105,9 @@ feature 分支用来开发具体的功能，一般 fork 自 develop 分支，最
 
 我们来看几个相关的命令。
 
+
 从 develop 分支建一个 feature 分支，并切换到 feature 分支
+### 命令
     git checkout -b myfeature develop 
     git checkout -b myfeature develop 
     合并feature 分支到 develop
