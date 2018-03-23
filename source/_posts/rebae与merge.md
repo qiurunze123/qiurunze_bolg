@@ -21,7 +21,7 @@ git rebase 用于把一个分支的修改合并到当前分支 。假设你现�
 
       git checkout -b mywork origin 
 假设远程分支已经有两个提交.如图。
-![](http://upload-images.jianshu.io/upload_images/697285-06b9c710a11ba45c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](C://hexo_blog/themes/spfk/source/img/bj.jpg)
 
 现在我们在这个分支做一些修改.然后生成两个提交（commit）.
 #### 命令

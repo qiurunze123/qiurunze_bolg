@@ -6,11 +6,11 @@
 menu:
   博客首页: "https://qiurunze123.github.io/geekqrzlovecode.github.io/"
   gitub地址: "https://github.com/qiurunze123/"
-  留言打卡: /about
+  #留言打卡: /about
   #前端导航: /FrontEndGuide
-  #静心阅读: /java
+# 静心阅读: /tags
 # 光影之路: /instagram
-  #随笔: /tags/java
+# 随笔: /tags/随笔
 
 # Link to your avatar | 填写头像地址
 avatar: img/head2.jpg
@@ -61,14 +61,14 @@ duoshuo:
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 gitment:
-  on: true
+  on: false
   owner: GeekQ
   repo: qiurunze123.github.io
   client_id: 
   client_secret: 
 
 youyan:
-  #on: true
+  on: false
   id: 
   # 是否开启友言评论，http://www.uyan.cc/index.php
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
@@ -110,7 +110,7 @@ toc_nowrap: false
 
 # 自定义"阅读全文"链接按钮的显示文字
 # Customize the text on excerpt link
-excerpt_link: 灌篮高手 #修改more>>的文字
+excerpt_link: 小学生 #修改more>>的文字
 
 # 是否显示边栏中的搜索框（仅样式，未添加搜索功能）
 # Search Box in left column
@@ -130,13 +130,13 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 # friends: false
 friends:
-  name: "https://qiurunze123.github.io/geekqrzlovecode.github.io/"
+  有事请发邮件: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=YFFSVVZYUFhWWFIgERFOAw8N"
 
 # 打赏
 # 请在需要打赏的文章的md文件头部，设置属性reward: true
 
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording1: '纯属好玩'
 reward_wording2: '扫码打赏，你说多少就多少'
@@ -146,7 +146,7 @@ alipay: /img/alipay.png
 weixin: /img/weixin.png
 
 #是否开启“关于我”。
-aboutme: 邱家门前三千客.润泽城南五尺天.     繁华落寞无须有.心装天地路自宽.
+aboutme: 邱家门前三千客.润泽城南五尺天.繁华落寞无须有.心装天地路自宽.
 #aboutme: false
 
 # 是否在新窗口打开链接
@@ -169,22 +169,22 @@ mathjax: false
 
 # Socail Share | 是否开启分享
 # share: true
-baidushare: true
+#baidushare: false
 #showshare: true
 
 # 百度、谷歌站长验证。填写 HTML 标签 content
 # Site Verification for Google and Baidu. HTML label content.
-google_site: # pFW527fHrjfI0si2w4NQ0w3cTw12AvvuohAu1PUfqKA
-baidu_site: #c167b9feb4f0b208b712c79629c188e4
+#google_site: # pFW527fHrjfI0si2w4NQ0w3cTw12AvvuohAu1PUfqKA
+#baidu_site: #c167b9feb4f0b208b712c79629c188e4
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X, or Baidu Analytics hash key
-google_analytics:
-baidu_analytics:
+#google_analytics:
+#baidu_analytics:
 
 # 不蒜子网站计数设置
 # http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
-  on: true
+  on: false
   site_visit: 到访数
   page_visit: 阅读量
 
