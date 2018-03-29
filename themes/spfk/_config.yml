@@ -4,7 +4,7 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  博客首页: "https://qiurunze123.github.io/geekqrzlovecode.github.io/"
+  博客首页: "https://qiurunze123.github.io/"
   gitub地址: "https://github.com/qiurunze123/"
   #留言打卡: /about
   #前端导航: /FrontEndGuide
