@@ -1,15 +1,16 @@
 ---
-title: 【java基础】字符串
+title: 【java基础】string,stringbugger,stringbuilder
 date: 2015-7-14 16:42:20
-tags:  字符串
+tags:  【java基础】string,stringbugger,stringbuilder
 reward: true
 ---
 
 #string,stringbuffer,stringbuilder概述
 这三个类之间的区别主要是在两个方面，即运行速度和线程安全这两方面。
+
 <!--more-->
 首先说运行速度，或者说是执行速度，在这方面运行速度快慢为：StringBuilder > StringBuffer > String
- 
+ >
 String最慢的原因：
 String为字符串常量，而StringBuilder和StringBuffer均为字符串变量，即String对象一旦创建之后该对象是不可更改的，但后两者的对象是变量，是可以更改的。以下面一段代码为例：
 
