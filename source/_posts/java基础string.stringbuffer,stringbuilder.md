@@ -1,11 +1,12 @@
 ---
-title: 【java基础】string,stringbugger,stringbuilder
+title: 【java基础】string比较
 date: 2015-7-14 16:42:20
-tags:  【java基础】string,stringbugger,stringbuilder
+tags:  【java基础】string比较
 reward: true
 ---
 
-#string,stringbuffer,stringbuilder概述
+
+###string,stringbuffer,stringbuilder概述
 这三个类之间的区别主要是在两个方面，即运行速度和线程安全这两方面。
 
 <!--more-->
